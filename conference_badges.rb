@@ -28,6 +28,6 @@ def printer(attendees,roomListArray )
       puts "Hello, my name is #{i}."
     end
     roomListArray.each do |t|
-      puts t 
+      puts t
     end   
 end
