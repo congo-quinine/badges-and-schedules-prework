@@ -22,3 +22,7 @@ def assign_rooms(attendees)
       end
     return roomListArray
 end
+
+def printer(attendees)
+  puts attendees
+end  
