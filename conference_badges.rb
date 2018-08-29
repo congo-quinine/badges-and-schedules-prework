@@ -4,9 +4,9 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(plistOne)
+def batch_badge_creator(array)
   array_badges = []
-    plistOne.each do |i|
+    array.each do |i|
       array_badges.push("Hello, my name is #{i}.")
   end
   puts "BADGE CREATOR"
@@ -15,10 +15,10 @@ def batch_badge_creator(plistOne)
 end
 
 
-def assign_rooms(plist)
+def assign_rooms(array)
   roomListArray = []
     roomNumber = 1
-      plist.each do |i|
+      array.each do |i|
         roomListArray.push("Hello, #{i}! You'll be assigned to room #{roomNumber}!")
           roomNumber += 1
       end
@@ -32,5 +32,4 @@ def printer(array)
       assign_rooms(array).each do |i|
           puts i
       end
-end           
-
+end
