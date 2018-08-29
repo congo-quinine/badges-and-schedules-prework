@@ -24,10 +24,5 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees,roomListArray )
-    attendees.each do |i|
-      puts "Hello, my name is #{i}."
-    end
-    roomListArray.each do |t|
-      puts t
-    end   
+
 end
