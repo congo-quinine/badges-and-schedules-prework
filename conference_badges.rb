@@ -13,10 +13,10 @@ def batch_badge_creator(attendees)
 end
 
 
-def assign_rooms(attendees)
+def assign_rooms(plist)
   roomListArray = []
     roomNumber = 1
-      attendees.each do |i|
+      plist.each do |i|
         roomListArray.push("Hello, #{i}! You'll be assigned to room #{roomNumber}!")
           roomNumber += 1
       end
