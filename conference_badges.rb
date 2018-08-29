@@ -9,9 +9,7 @@ def batch_badge_creator(array)
     array.each do |i|
       array_badges.push("Hello, my name is #{i}.")
   end
-  puts "BADGE CREATOR"
-  puts array_badges
-  return array_badges
+  array_badges
 end
 
 
@@ -22,7 +20,7 @@ def assign_rooms(array)
         roomListArray.push("Hello, #{i}! You'll be assigned to room #{roomNumber}!")
           roomNumber += 1
       end
-    return roomListArray
+    roomListArray
 end
 
 def printer(array)
