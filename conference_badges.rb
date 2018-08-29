@@ -30,7 +30,7 @@ def printer(array)
     bd.each do |i|
       puts i
     end
-    pd assign_rooms(array)
+    pd = assign_rooms(array)
       pd.each do |i|
           puts i
       end
