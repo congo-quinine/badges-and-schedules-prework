@@ -23,6 +23,6 @@ def assign_rooms(attendees)
     return roomListArray
 end
 
-def printer(attendees)
+def printer(array_badges)
   puts attendees
 end  
